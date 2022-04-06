@@ -23,9 +23,7 @@ console.log(props.movieDetailsState.movieDetails)
   return (
     <ul>
         {props.movieDetailsState.movieDetails.overview}
-      {/* {props.movieDetailsState.movieDetails.map((movie) => (
-          <li key={movie.id}>{movie.overview}</li>
-        ))} */}
+
     </ul>
   )
 }
